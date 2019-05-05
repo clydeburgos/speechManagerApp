@@ -1,0 +1,21 @@
+.side-navigation {
+    height: 500px;
+    width: 100%;
+    z-index: 1;
+    top: 50px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+
+.main-content {
+    z-index: 1;
+    transition: 0.5s;
+}
+textarea {
+    height: 250px!important;
+}
+
+.main-content-container {
+    border-top: 2px solid #1f9bcf;
+}

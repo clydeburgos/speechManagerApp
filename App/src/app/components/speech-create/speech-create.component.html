@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content">
+            <div class="speech-content pb-3">
+              <textarea class="form-control" [(ngModel)]="speechModel.content" placeholder="Speech content here..."></textarea>
+            </div>
+            <div class="search-controls d-flex pb-2">
+              <input type="text" class="form-control" [(ngModel)]="speechModel.author" placeholder="Author" /> &nbsp;
+              <input type="text" class="form-control" [(ngModel)]="speechModel.title" placeholder="Keyword" /> &nbsp;
+              <input type="text" class="form-control" placeholder="Date" /> &nbsp;
+            </div>
+            <div class="btn-controls d-flex justify-content-end pr-1">
+              <button type="button" class="btn btn-danger">Delete</button> &nbsp;
+              <button type="button" class="btn btn-success" (click)="addSpeech()">Save</button> &nbsp;
+              <button type="button" class="btn btn-info">Share</button>
+            </div>
+          </div>
+    </div>
+  </div>
+  
+  
+  
+  
